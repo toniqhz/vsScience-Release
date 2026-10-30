@@ -1,6 +1,6 @@
 # Chính sách bảo mật — VsScience
 
-Cập nhật: 31/10/2026
+Cập nhật: 30/10/2026
 
 VsScience là app máy tính giúp bạn làm việc với tài liệu (PDF, Word, Excel…) cùng Claude. Chính sách này cho biết app xử lý dữ liệu của bạn như thế nào.
 
