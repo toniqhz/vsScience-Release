@@ -1,6 +1,6 @@
 # Chính sách bảo mật — VsScience
 
-Cập nhật: 23/10/2026
+Cập nhật: 30/10/2026
 
 VsScience là app máy tính giúp bạn làm việc với tài liệu (PDF, Word, Excel…) cùng Claude. Chính sách này cho biết app xử lý dữ liệu của bạn như thế nào.
 
@@ -19,6 +19,18 @@ VsScience là app máy tính giúp bạn làm việc với tài liệu (PDF, Wor
 | Kiểm tra bản cập nhật, xem "Có gì mới" | GitHub | Yêu cầu thông tin phiên bản mới nhất. Không kèm dữ liệu cá nhân. |
 | Chỉ khi bạn bật đồng bộ OneDrive | Microsoft | Các file trong thư mục bạn chọn đồng bộ, qua tài khoản Microsoft của bạn. |
 | Chỉ khi bạn bật "Cho máy khác kết nối" | Máy bạn đã ghép nối | Tài liệu và đoạn chat của thư mục đang mở, truyền trực tiếp giữa các máy của bạn. |
+| Chỉ khi bạn kết nối Outlook | Microsoft | Đọc thư, file đính kèm và chuỗi thư bạn hoặc agent cần; tạo thư nháp; gửi thư khi bạn cho phép. |
+| Chỉ khi bạn kết nối Google | Google | Đọc, sửa, tạo bảng tính (Sheets), tài liệu (Docs), bài trình chiếu (Slides) bạn hoặc agent cần làm việc. |
+
+## Tài khoản Outlook và Google bạn kết nối
+
+- Bạn đăng nhập trên trang của Microsoft / Google trong trình duyệt; **mật khẩu không đi qua VsScience**.
+- App chỉ lưu mã đăng nhập (refresh token) **trên máy bạn**, được mã hóa bằng kho bảo mật của hệ điều hành khi có. Không gửi về nhà phát triển hay bên thứ ba nào.
+- Dữ liệu đọc từ Outlook / Google chỉ được dùng để làm việc bạn yêu cầu trong app. Phần nội dung cần cho việc đó được gửi tới Anthropic qua tài khoản Claude của bạn, như mọi cuộc trò chuyện khác.
+- Gửi thư và sửa file có sẵn chỉ diễn ra khi bạn cho phép (hỏi trong chat hoặc theo cài đặt duyệt của agent).
+- Bạn gỡ kết nối bất cứ lúc nào trong app (Kết nối → nút gỡ tài khoản), và có thể thu hồi quyền tại https://myaccount.google.com/permissions hoặc https://account.live.com/consent/Manage (tài khoản trường / công ty: https://myapps.microsoft.com).
+
+**Google API:** VsScience sử dụng và chuyển giao thông tin nhận được từ Google API tuân theo [Chính sách dữ liệu người dùng của Google API Services](https://developers.google.com/terms/api-services-user-data-policy), bao gồm các yêu cầu Sử dụng giới hạn (Limited Use). Dữ liệu Google không được bán, không dùng cho quảng cáo, không dùng để huấn luyện mô hình AI chung, và không ai đọc trừ khi bạn đồng ý hoặc pháp luật yêu cầu.
 
 ## Dữ liệu lưu trên máy bạn
 
@@ -27,6 +39,10 @@ VsScience là app máy tính giúp bạn làm việc với tài liệu (PDF, Wor
 ## Trẻ em
 
 App không dành riêng cho trẻ em và không cố ý thu thập dữ liệu của trẻ em.
+
+## Điều khoản sử dụng
+
+Xem https://github.com/toniqhz/vsScience-Release/blob/main/TERMS.md
 
 ## Liên hệ
 
@@ -41,6 +57,10 @@ VsScience is a desktop app for working with documents together with Claude.
 - Your documents stay on your computer. VsScience has no servers of its own and collects no personal data, analytics or telemetry.
 - Messages, attached images and document excerpts you discuss with Claude are sent to Anthropic through your own Claude account, under [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy).
 - Update checks contact GitHub (no personal data). OneDrive sync (Microsoft) and device-to-device connection are used only if you turn them on.
+- **Connected Outlook and Google accounts** (only if you connect them): VsScience reads mail and attachments, creates drafts, and sends mail only with your permission (Microsoft Graph); it reads, edits and creates Google Sheets, Docs and Slides you or your agent work with. You sign in on Microsoft's / Google's own page; your password never passes through VsScience. Sign-in tokens are stored only on your computer, encrypted with the operating system's secure storage when available. Data is used only to do what you ask in the app; content needed for that is sent to Anthropic through your Claude account. You can disconnect in the app at any time and revoke access at https://myaccount.google.com/permissions or https://account.live.com/consent/Manage.
+- **Google API:** VsScience's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. Google user data is not sold, not used for advertising, not used to train general AI models, and not read by humans except with your consent or where required by law.
 - Chats, snapshots and settings are stored locally; uninstalling the app or deleting those folders removes them.
+
+Terms of Service: https://github.com/toniqhz/vsScience-Release/blob/main/TERMS.md
 
 Contact: https://github.com/toniqhz/vsScience-Release/issues
