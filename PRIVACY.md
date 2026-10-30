@@ -42,7 +42,7 @@ App không dành riêng cho trẻ em và không cố ý thu thập dữ liệu c
 
 ## Điều khoản sử dụng
 
-Xem https://github.com/toniqhz/vsScience-Release/blob/main/TERMS.md
+Xem https://toniqhz.github.io/vsScience-Release/TERMS.html
 
 ## Liên hệ
 
@@ -61,6 +61,6 @@ VsScience is a desktop app for working with documents together with Claude.
 - **Google API:** VsScience's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. Google user data is not sold, not used for advertising, not used to train general AI models, and not read by humans except with your consent or where required by law.
 - Chats, snapshots and settings are stored locally; uninstalling the app or deleting those folders removes them.
 
-Terms of Service: https://github.com/toniqhz/vsScience-Release/blob/main/TERMS.md
+Terms of Service: https://toniqhz.github.io/vsScience-Release/TERMS.html
 
 Contact: https://github.com/toniqhz/vsScience-Release/issues
