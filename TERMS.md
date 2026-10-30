@@ -22,7 +22,7 @@ VsScience là app máy tính giúp bạn làm việc với tài liệu cùng Cla
 
 ## 4. Dữ liệu của bạn
 
-- Tài liệu và dữ liệu là của bạn. VsScience không có máy chủ riêng và không thu thập dữ liệu của bạn — xem [Chính sách bảo mật](https://github.com/toniqhz/vsScience-Release/blob/main/PRIVACY.md).
+- Tài liệu và dữ liệu là của bạn. VsScience không có máy chủ riêng và không thu thập dữ liệu của bạn — xem [Chính sách bảo mật](https://toniqhz.github.io/vsScience-Release/PRIVACY.html).
 - Bạn nên sao lưu tài liệu quan trọng.
 
 ## 5. Không bảo đảm
@@ -48,7 +48,7 @@ By installing or using VsScience you agree to these terms.
 1. **Use.** You may use VsScience free of charge for personal, educational and organizational work. Chatting with Claude requires your own Claude account and is governed by [Anthropic's Terms](https://www.anthropic.com/legal/consumer-terms) and [Usage Policy](https://www.anthropic.com/legal/aup). Do not use the app for unlawful purposes, spam, infringing others' rights, or accessing accounts or data you are not authorized to access.
 2. **Connected accounts.** When you connect Outlook, Google or other services, the app acts on your behalf with those accounts. You are responsible for their use and for complying with Microsoft's, Google's and your organization's terms. You can disconnect at any time.
 3. **AI output and agents.** Claude and agents can make mistakes. Review content before sending or relying on it. Sending mail or editing files happens only under the approval settings you choose; if you let an agent act on its own, you are responsible for the results.
-4. **Your data.** Your documents and data remain yours. See the [Privacy Policy](https://github.com/toniqhz/vsScience-Release/blob/main/PRIVACY.md). Keep backups of important files.
+4. **Your data.** Your documents and data remain yours. See the [Privacy Policy](https://toniqhz.github.io/vsScience-Release/PRIVACY.html). Keep backups of important files.
 5. **No warranty.** The app is provided "as is", without warranties of any kind. To the extent permitted by law, the developer is not liable for damages arising from its use, including data loss, misdirected mail, or incorrect AI-generated content.
 6. **Changes.** These terms may be updated; the date at the top shows the latest version. Continued use means you accept the updated terms.
 7. **Contact.** https://github.com/toniqhz/vsScience-Release/issues
