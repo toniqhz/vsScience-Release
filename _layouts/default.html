@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: "VsScience" }} — VsScience</title>
+<link rel="icon" href="{{ '/icon.png' | relative_url }}">
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --card: #f6f8fa; --accent: #0969da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #30363d; --card: #161b22; --accent: #4493f8; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+  nav { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; }
+  nav img { width: 32px; height: 32px; border-radius: 8px; }
+  nav a { color: var(--fg); text-decoration: none; font-weight: 700; }
+  h1 { font-size: 1.9rem; margin: 24px 0 8px; }
+  h2 { font-size: 1.3rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--card); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  li { margin: 4px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  footer a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><img src="{{ '/icon.png' | relative_url }}" alt=""><a href="{{ '/' | relative_url }}">VsScience</a></nav>
+  {{ content }}
+  <footer>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/PRIVACY.html' | relative_url }}">Privacy Policy</a>
+    <a href="{{ '/TERMS.html' | relative_url }}">Terms of Service</a>
+    <a href="https://github.com/toniqhz/vsScience-Release/issues">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
